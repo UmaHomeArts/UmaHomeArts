@@ -1,7 +1,7 @@
 /* EDIT THIS FILE to add, remove or update products. Set featured:false to hide a product from the homepage. */
 window.UMA_CONFIG = {
-  storeUrl: "#", /* Paste your Meesho store link here */
-  whatsappNumber: "", /* Example: 919876543210 (no + or spaces) */
+  storeUrl: "https://www.meesho.com/UmaHomeArtss?_ms=3.0.1", /* Paste your Meesho store link here */
+  whatsappNumber: "6267291315", /* Example: 919876543210 (no + or spaces) */
   products: [
     {id:"vastu-fish", name:"Vastu Fish", category:"Vastu", description:"A graceful decorative accent for home or office.", image:"images/products/vastu-fish.jpg", meeshoUrl:"#", featured:true},
     {id:"golden-owl", name:"Golden Owl", category:"Vastu", description:"A striking Feng Shui-inspired décor piece.", image:"images/products/golden-owl.jpg", meeshoUrl:"#", featured:true},
