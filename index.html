@@ -1,207 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>UmaHomeArts | Premium Home Decor & Polyresin Statues</title>
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, Helvetica, sans-serif;
-}
-
-body{
-background:#f8f8f8;
-color:#333;
-}
-
-header{
-background:#111;
-color:white;
-padding:18px 8%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-.logo{
-font-size:28px;
-font-weight:bold;
-color:#D4AF37;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:25px;
-}
-
-.hero{
-background:linear-gradient(to right,#111,#222);
-color:white;
-padding:90px 8%;
-text-align:center;
-}
-
-.hero h1{
-font-size:48px;
-margin-bottom:20px;
-}
-
-.hero p{
-font-size:20px;
-margin-bottom:35px;
-}
-
-.button{
-background:#D4AF37;
-padding:15px 35px;
-text-decoration:none;
-color:black;
-font-weight:bold;
-border-radius:6px;
-display:inline-block;
-}
-
-.section{
-padding:70px 8%;
-}
-
-.section h2{
-text-align:center;
-margin-bottom:40px;
-font-size:36px;
-}
-
-.products{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-gap:25px;
-}
-
-.card{
-background:white;
-border-radius:10px;
-padding:20px;
-text-align:center;
-box-shadow:0 5px 20px rgba(0,0,0,.1);
-}
-
-.card img{
-width:100%;
-height:220px;
-object-fit:cover;
-border-radius:8px;
-}
-
-.card h3{
-margin:18px 0;
-}
-
-.buy{
-display:inline-block;
-margin-top:15px;
-background:#111;
-color:white;
-padding:12px 25px;
-text-decoration:none;
-border-radius:5px;
-}
-
-footer{
-background:#111;
-color:white;
-text-align:center;
-padding:30px;
-margin-top:60px;
-}
-
-</style>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="UmaHomeArts brings premium Vastu décor, God idols and handcrafted home accents to every home.">
+  <title>UmaHomeArts | Vastu & Home Decor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-<header>
-
-<div class="logo">UmaHomeArts</div>
-
-<nav>
-
-<a href="#">Home</a>
-<a href="#">Products</a>
-<a href="#">About</a>
-<a href="#">Contact</a>
-
-</nav>
-
-</header>
-
-<section class="hero">
-
-<h1>Premium Home Decor & Polyresin Statues</h1>
-
-<p>Beautiful handcrafted decor to make every home special.</p>
-
-<a class="button" href="#">Shop on Meesho</a>
-
-</section>
-
-<section class="section">
-
-<h2>Best Sellers</h2>
-
-<div class="products">
-
-<div class="card">
-
-<img src="https://via.placeholder.com/300x300">
-
-<h3>Polyresin Krishna Statue</h3>
-
-<p>Premium Home Decor</p>
-
-<a class="buy" href="#">Buy on Meesho</a>
-
-</div>
-
-<div class="card">
-
-<img src="https://via.placeholder.com/300x300">
-
-<h3>Vastu Horse</h3>
-
-<p>Lucky Decorative Showpiece</p>
-
-<a class="buy" href="#">Buy on Meesho</a>
-
-</div>
-
-<div class="card">
-
-<img src="https://via.placeholder.com/300x300">
-
-<h3>Glass Tortoise</h3>
-
-<p>Positive Energy Decor</p>
-
-<a class="buy" href="#">Buy on Meesho</a>
-
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-© 2026 UmaHomeArts | All Rights Reserved
-
-</footer>
-
-</body>
-</html>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="UmaHomeArts home"><span class="brand-mark">U</span><span>UmaHome<span>Arts</span></span></a>
+    <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a><a href="products.html">Products</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+      <a class="button button-small" data-store-link href="#">Shop on Meesho</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-content"><p class="eyebrow">UmaHomeArts · made for meaningful spaces</p><h1>Décor that brings <em>warmth</em> home.</h1><p class="hero-copy">Discover thoughtful Vastu accents, divine idols and beautiful décor pieces selected for every corner of your home.</p><div class="hero-actions"><a class="button" href="products.html">Explore collection</a><a class="text-link" data-store-link href="#">Buy on Meesho <span>→</span></a></div></div>
+      <div class="hero-art" aria-hidden="true"><div class="sun"></div><div class="arch arch-back"></div><div class="arch arch-front"></div><p>Vastu · Décor · Gifting</p></div>
+    </section>
+    <section class="section trust-row" aria-label="UmaHomeArts promises"><div><b>Premium finish</b><span>Made to be admired</span></div><div><b>Secure packaging</b><span>Sent with care</span></div><div><b>Perfect for gifting</b><span>For every occasion</span></div></section>
+    <section class="section" id="best-sellers"><div class="section-heading"><div><p class="eyebrow">Our favourites</p><h2>Best sellers</h2></div><a class="text-link" href="products.html">See all products <span>→</span></a></div><div class="product-grid" data-product-grid data-limit="6"></div></section>
+    <section class="section categories"><div class="section-heading"><div><p class="eyebrow">Find your style</p><h2>Shop by collection</h2></div></div><div class="category-grid"><a href="products.html?category=Vastu" class="category-card cat-vastu"><span>01</span><h3>Vastu Collection</h3><p>Positive energy for your space</p></a><a href="products.html?category=God%20Idols" class="category-card cat-idols"><span>02</span><h3>God Idols</h3><p>Divine presence at home</p></a><a href="products.html?category=Home%20Decor" class="category-card cat-decor"><span>03</span><h3>Home Décor</h3><p>Details that feel like you</p></a><a href="products.html?category=Gifts" class="category-card cat-gifts"><span>04</span><h3>Gift Collection</h3><p>Something memorable to give</p></a></div></section>
+    <section class="section story"><div class="story-image"><div class="story-circle"></div><p>Made for<br>everyday<br>beauty.</p></div><div class="story-copy"><p class="eyebrow">Why UmaHomeArts</p><h2>Small details make a home feel special.</h2><p>We curate décor that looks beautiful, feels meaningful and is ready to gift. Browse our collection and complete your purchase securely through Meesho.</p><ul><li>Carefully chosen designs</li><li>Suitable for home, office and gifting</li><li>Simple, secure Meesho checkout</li></ul><a href="about.html" class="text-link">More about us <span>→</span></a></div></section>
+    <section class="section testimonials"><p class="eyebrow">Customer love</p><h2>Made to be gifted. Loved to be kept.</h2><div class="review-grid"><blockquote>“A beautiful finishing touch for my living room. It looks even better in person.”<footer>— UmaHomeArts customer</footer></blockquote><blockquote>“The packaging was careful and it made a lovely housewarming gift.”<footer>— UmaHomeArts customer</footer></blockquote><blockquote>“The design is elegant and exactly what I wanted for my pooja corner.”<footer>— UmaHomeArts customer</footer></blockquote></div></section>
+    <section class="section cta"><p class="eyebrow">Ready to find your favourite?</p><h2>Bring a little more beauty home.</h2><a class="button" data-store-link href="#">Shop UmaHomeArts on Meesho</a></section>
+  </main>
+  <footer class="site-footer"><div><a class="brand" href="index.html"><span class="brand-mark">U</span><span>UmaHome<span>Arts</span></span></a><p>Vastu décor, God idols and thoughtful gifts for meaningful spaces.</p></div><div><b>Explore</b><a href="products.html">All products</a><a href="about.html">About us</a><a href="contact.html">Contact</a></div><div><b>Information</b><a href="privacy-policy.html">Privacy policy</a><a href="terms.html">Terms of use</a><a data-store-link href="#">Shop on Meesho</a></div><p class="copyright">© <span data-year></span> UmaHomeArts. All rights reserved.</p></footer>
+  <script src="js/products.js"></script><script src="js/script.js"></script>
+</body></html>
