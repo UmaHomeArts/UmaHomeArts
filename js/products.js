@@ -1,6 +1,6 @@
 /* EDIT THIS FILE to add, remove or update products. Set featured:false to hide a product from the homepage. */
 window.UMA_CONFIG = {
-  storeUrl: "https://www.meesho.com/UmaHomeArtss?_ms=3.0.1", /* Paste your Meesho store link here */
+  storeUrl: "https://www.meesho.com/UmaHomeArtss?_ms=3.0.1" /* Paste your Meesho store link here */
   whatsappNumber: "6267291315", /* Example: 919876543210 (no + or spaces) */
   products: [
     {id:"vastu-fish", name:"Vastu Fish", category:"Vastu", description:"A graceful decorative accent for home or office.", image:"images/products/vastu-fish.jpg", meeshoUrl:"#", featured:true},
